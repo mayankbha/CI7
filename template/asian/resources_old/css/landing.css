@@ -1,0 +1,61 @@
+
+#landing-page-2 {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+
+#landing-page-2 .toolbar .logo img {
+  width: 130px;
+  height: auto;
+}
+
+
+#landing-page-2 .toolbar .login {
+  margin: 17px 0;
+}
+
+#landing-page-2 .toolbar {
+  background-image: -ms-linear-gradient(top, #d52028 0%, #b42125 100%);
+  background-image: -moz-linear-gradient(top, #d52028 0%, #b42125 100%);
+  background-image: -o-linear-gradient(top, #d52028 0%, #b42125 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d52028), color-stop(1, #b42125));
+  background-image: -webkit-linear-gradient(top, #d52028 0%, #b42125 100%);
+  background-image: linear-gradient(to bottom, #d52028 0%, #b42125 100%);
+  background-color: #b42125;
+  border-bottom: 1px solid #ea3e48;
+  border-top: 1px solid #ea3e48;
+  box-shadow: 0px 1px 0px #b42125;
+}
+
+
+
+#landing-page-2 .header {
+  background: url(/template/asian/resources/img/bg-header-landing-2.jpg) repeat-x;
+  min-height: 200px;
+  color: #fff;
+  height: 600px;
+  overflow: hidden;
+}
+
+
+#landing-page-2 .language {
+  margin-left: 30px;
+}
+
+
+#landing-page-2 .banner-intro {
+  position: relative;
+  max-width: none;
+  text-shadow: 0 1px 3px #aaa;
+}
+
+
+#landing-page-2 .banner-img {
+  margin-top: 50px;
+}
+
+
+#landing-page-2 .banner-img img {
+  max-width: 100%;
+}

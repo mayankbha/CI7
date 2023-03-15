@@ -1,0 +1,48 @@
+Options -MultiViews
+IndexIgnore *
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+
+<ifModule mod_php5.c>
+php_value register_globals 1
+php_value session.bug_compat_42 0
+php_value session.bug_compat_warn 0
+php_value allow_call_time_pass_reference 1
+php_value magic_quotes_gpc 1
+php_value max_input_time 1000
+php_value memory_limit 256M
+php_value register_argc_argv 1
+php_value session.bug_compat_warn 0
+php_value max_execution_time 1000
+#php_value error_reporting 22519
+php_value error_reporting 22517
+php_value display_errors 1
+</ifModule>
+
+
+<ifModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+#require www
+RewriteCond %{HTTP_HOST} ^west-date-east.com [NC]
+RewriteRule ^(.*)$ http://www.west-date-east.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^dumpflings.com [NC]
+RewriteRule ^(.*)$ http://www.dumpflings.com/$1 [L,R=301]
+
+#require no www
+#RewriteCond %{HTTP_HOST} !^west-date-east\.com$ [NC]
+#RewriteRule ^(.*)$ http://west-date-east.com/$1 [R=301,L]
+</ifModule>

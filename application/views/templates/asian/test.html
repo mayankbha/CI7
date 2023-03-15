@@ -1,0 +1,1022 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+	<head>
+		<title>Modules</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="/admin.css" rel="stylesheet" type="text/css" />
+		<script language="javascript" type="text/javascript" src="http://localhost/gzip_loader.php?file=bx_templ_js_5c9b458890b54971526c658a83ed3482.js"></script>
+
+
+		
+        
+	       </head>
+    <body  class="bx-def-font">
+    
+<div id="FloatDesc"></div>
+
+        <div class="adm-header">
+        	<div class="adm-header-content">
+            	<div class="adm-header-title bx-def-margin-sec-left">
+            		                    <img class="adm-header-logo" src="http://dating.dev/template/asian/resources/img/logo-white.png" />
+            		<div class="adm-header-text bx-def-font-h1">
+										&#160;
+										&#160;
+										&#160;
+										&#160;
+
+										Dating Admin <span>demo</span></div>
+            		                    <div class="adm-header-update bx-def-margin-sec-left" id="adm-header-update"></div>
+                    <div class="clear_both">&nbsp;</div>
+                    <script language="javascript" type="text/javascript">
+                    <!--
+                        $(document).ready(function() {
+                            $.get(
+                                'http://localhost/get_rss_feed.php?ID=boonex_version&member=0', 
+                                {},
+                                function(sData) {
+                                	if(!sData)
+                                	    return;
+
+                                    var sVerCur = '7.1.4';
+                                    var sVerNew = $(sData).find('dolphin').html(); 
+                                    if(sVerNew != undefined && sVerNew != null && sVerNew != '' && sVerNew != sVerCur)
+                                        $('#adm-header-update').html('<a href="http://www.boonex.com/dolphin/download/">Update to ' + sVerNew + ' now!</a>');
+                                },
+                                'text'
+                            );
+                        });
+                    -->
+                    </script>
+            	</div>
+            	            	<div class="adm-top-menu bx-def-margin-sec-right">
+            <div class="adm-tm-item" onmouseover="javascript:$(this).addClass('adm-tm-item-active');" onmouseout="javascript:$(this).removeClass('adm-tm-item-active');">
+            <a href="http://localhost/index.php" title="Site Home">
+                <div class="adm-tm-item-icon">
+                    <i class="sys-icon globe"></i>                </div>
+            </a>
+        </div>
+            <div class="adm-tm-item" onmouseover="javascript:$(this).addClass('adm-tm-item-active');" onmouseout="javascript:$(this).removeClass('adm-tm-item-active');">
+            <a href="http://www.boonex.com/trac/dolphin/wiki/Dolphin7Docs" title="Documentation">
+                <div class="adm-tm-item-icon">
+                    <i class="sys-icon question-sign"></i>                </div>
+            </a>
+        </div>
+            <div class="adm-tm-item" onmouseover="javascript:$(this).addClass('adm-tm-item-active');" onmouseout="javascript:$(this).removeClass('adm-tm-item-active');">
+            <a href="http://www.boonex.com/market" title="Add Modules">
+                <div class="adm-tm-item-icon">
+                    <i class="sys-icon shopping-cart"></i>                </div>
+            </a>
+        </div>
+            <div class="adm-tm-item" onmouseover="javascript:$(this).addClass('adm-tm-item-active');" onmouseout="javascript:$(this).removeClass('adm-tm-item-active');">
+            <a href="http://localhost/logout.php" title="Logout">
+                <div class="adm-tm-item-icon">
+                    <i class="sys-icon off"></i>                </div>
+            </a>
+        </div>
+    </div>
+            	            	<div class="clear_both">&nbsp;</div>
+            </div>
+        </div>
+        <div class="adm-middle">
+            <div class="adm-middle-center">
+                <div class="adm-middle-cnt bx-def-margin-sec-leftright">
+            		<table class="adm-middle" cellpadding="0" cellspacing="0">
+            			<tr>
+            				<td class="adm-middle-menu">
+            					                                <div class="adm-main-menu">
+    
+        <div class="adm-menu-wrapper bx-def-margin-sec-top-auto bx-def-border" onclick="javascript:window.open('http://localhost/administration/index.php', '_self')">
+            <div class="adm-menu-header adm-mm-dashboard">
+                
+                
+                    <i class="sys-icon dashboard col-blue3"></i>
+                
+                
+                
+                
+                    <a class="bx-def-font-h2" href="http://localhost/administration/index.php">Dashboard</a>
+                
+            </div>
+            
+        </div>
+    
+        <div class="adm-menu-wrapper bx-def-margin-sec-top-auto bx-def-border" onclick="javascript:window.open('http://localhost/administration/profiles.php', '_self')">
+            <div class="adm-menu-header adm-mm-users">
+                
+                
+                    <i class="sys-icon group col-green1"></i>
+                
+                
+                
+                
+                    <a class="bx-def-font-h2" href="http://localhost/administration/profiles.php">Members</a>
+                
+            </div>
+            
+        </div>
+    
+        <div class="adm-menu-wrapper bx-def-margin-sec-top-auto bx-def-border" >
+            <div class="adm-menu-header adm-mm-modules">
+                
+                
+                    <i class="sys-icon th-large col-red1"></i>
+                
+                
+                    <img src="http://localhost/administration/templates/base/images/spacer.gif" class="adm-menu-arrow " />
+                
+                
+                
+                    <a class="bx-def-font-h2" href="http://localhost/administration/index.php?cat=modules">Modules</a>
+                
+            </div>
+            
+                <div id="adm-mmi-2" class="adm-menu-items-wrapper bx-def-padding-leftright bx-def-padding-sec-topbottom ">
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon plus col-red1"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/modules.php" ><b>Add & Manage</b></a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon bolt col-red1"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/flash.php" ><b>Flash Apps</b></a>
+                            
+                        </div>
+                    
+                </div>
+            
+        </div>
+    
+        <div class="adm-menu-wrapper bx-def-margin-sec-top-auto bx-def-border" >
+            <div class="adm-menu-header adm-mm-tools">
+                
+                
+                    <i class="sys-icon wrench col-green3"></i>
+                
+                
+                    <img src="http://localhost/administration/templates/base/images/spacer.gif" class="adm-menu-arrow " />
+                
+                
+                
+                    <a class="bx-def-font-h2" href="http://localhost/administration/index.php?cat=tools">Tools</a>
+                
+            </div>
+            
+                <div id="adm-mmi-5" class="adm-menu-items-wrapper bx-def-padding-leftright bx-def-padding-sec-topbottom ">
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon envelope col-green3"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/notifies.php" >Mass Mailer</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon flag col-green3"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/banners.php" >Banners</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon ban-circle col-green3"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/ip_blacklist.php" >IP Blacklist</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon download-alt col-green3"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/db.php" >Database Backup</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon hdd col-green3"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/host_tools.php" >Host Tools</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon legal col-green3"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/antispam.php" >Antispam Tools</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon sitemap col-green3"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/sitemap.php" >Sitemap</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon bolt col-green3"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/cache.php" >Cache</a>
+                            
+                        </div>
+                    
+                </div>
+            
+        </div>
+    
+        <div class="adm-menu-wrapper bx-def-margin-sec-top-auto bx-def-border" >
+            <div class="adm-menu-header adm-mm-builders">
+                
+                
+                    <i class="sys-icon reorder col-red2"></i>
+                
+                
+                    <img src="http://localhost/administration/templates/base/images/spacer.gif" class="adm-menu-arrow " />
+                
+                
+                
+                    <a class="bx-def-font-h2" href="http://localhost/administration/index.php?cat=builders">Builders</a>
+                
+            </div>
+            
+                <div id="adm-mmi-14" class="adm-menu-items-wrapper bx-def-padding-leftright bx-def-padding-sec-topbottom ">
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon list col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/nav_menu_compose.php" >Navigation Menu</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon list col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/service_menu_compose.php" >Service Menu</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon list col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/bottom_menu_compose.php" >Bottom Menu</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon list col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/member_menu_compose.php" >Member Menu</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon list col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/menu_compose_admin.php" >Admin Menu</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon list-alt col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/fields.php" >Profile Fields</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon th-large col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/pageBuilder.php" >Pages Builder</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon th col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/mobileBuilder.php" >Mobile Pages</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon list-ol col-red2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/preValues.php" >Predefined Values</a>
+                            
+                        </div>
+                    
+                </div>
+            
+        </div>
+    
+        <div class="adm-menu-wrapper bx-def-margin-sec-top-auto bx-def-border" >
+            <div class="adm-menu-header adm-mm-settings">
+                
+                
+                    <i class="sys-icon cogs col-blue2"></i>
+                
+                
+                    <img src="http://localhost/administration/templates/base/images/spacer.gif" class="adm-menu-arrow " />
+                
+                
+                
+                    <a class="bx-def-font-h2" href="http://localhost/administration/index.php?cat=settings">Settings</a>
+                
+            </div>
+            
+                <div id="adm-mmi-24" class="adm-menu-items-wrapper bx-def-padding-leftright bx-def-padding-sec-topbottom ">
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon asterisk col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/settings.php?cat=ap" >Admin Password</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon cog col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/basic_settings.php" >Basic Settings</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon cogs col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/advanced_settings.php" >Advanced Settings</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon globe col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/lang_file.php" >Languages Settings</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon star col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/memb_levels.php" >Membership Levels</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon paste col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/email_templates.php" >Email Templates</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon eye-open col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/templates.php" >Templates</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon folder-close col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/categories.php" >Categories Settings</a>
+                            
+                        </div>
+                    
+                        <div class="adm-menu-item-wrapper">
+                            
+                            
+                                <i class="sys-icon certificate col-blue2"></i>
+                            
+                            
+                            
+                                <a href="http://localhost/administration/settings.php?cat=16" >Watermark</a>
+                            
+                        </div>
+                    
+                </div>
+            
+        </div>
+    
+        <div class="adm-menu-wrapper bx-def-margin-sec-top-auto bx-def-border" onclick="javascript:window.open('http://localhost/administration/license.php', '_self')">
+            <div class="adm-menu-header adm-mm-license">
+                
+                
+                    <i class="sys-icon key col-red3"></i>
+                
+                
+                
+                
+                    <a class="bx-def-font-h2" href="http://localhost/administration/license.php">License</a>
+                
+            </div>
+            
+        </div>
+    
+    <script type="text/javascript" language="JavaScript">
+    <!--
+        $('.adm-main-menu .adm-menu-header').bind('click', function() {
+        	adminMenuCollapse(this);
+        }).bind('mouseover', function() {
+        	$(this).addClass('adm-mmh-hover');
+        }).bind('mouseout', function() {
+        	$(this).removeClass('adm-mmh-hover');
+        });
+    -->
+    </script>
+</div>
+                                                                <p class="bx-def-margin-sec-top">&copy; <a href="http://www.boonex.com/">BoonEx</a></p>
+                                            				</td>
+    
+            				<td class="adm-middle-main" id="main_cont">
+            					<div class="adm-page-header">Modules</div>
+            					<div class="adm-page-content">
+            							
+        <!-- Design Box [ Start ] here  -->
+<div class="disignBoxFirst bx-def-margin-top bx-def-border">
+	<div class="boxFirstHeader bx-def-bh-margin">
+        <div class="dbTitle">Installed Modules</div>
+        <div class="dbTopMenu">
+        	<table class="dbTmCntLine">
+        		<tr>
+		            
+		                
+		                <td id="modules-update-act" class="active" style="display:none">
+		                    
+		                    <span >Check For Updates</span>
+		                </td>
+		                <td id="modules-update-pas" class="notActive" >
+		                    
+		                    <a id="modules-update"   href="javascript:void(0)"   onclick="javascript:oMM.checkForUpdates(this);">Check For Updates</a>
+		                </td>
+		            
+				</tr>
+			</table>
+        </div>
+        <div class="clear_both"></div>
+	</div>
+	<div class="boxContent"><bx_if:include_js>
+	
+</bx_if:include_js>
+<form id="modules-installed-form" enctype="multipart/form-data" method="post" action="" class="form_advanced">
+    <div class="modules-items bx-def-bc-margin">
+        <div class="MsgBox" id="1390612623679">
+    <table class="MsgBox bx-def-margin-top bx-def-margin-bottom"><tr><td>
+        <div class="msgbox_content bx-def-font-large bx-def-padding-sec">
+            Empty        </div>
+    </td></tr></table>
+	</div>
+
+    </div>
+    <div class="admin_actions_panel">
+            <div class="bx-def-padding-left">
+            <input id="admin-actions-select-all-modules-installed-form" class="admin-actions-select-all" type="checkbox" onclick="$('#modules-installed-form input[name=\'pathes[]\']:enabled').attr('checked', this.checked)"   />
+            <label for="admin-actions-select-all-modules-installed-form">Select all</label>
+        </div>
+                <div class="bx-def-padding-left">
+                            <button class="bx-btn bx-btn-small" type="submit" name="modules-uninstall" value="Uninstall"  >Uninstall</button>
+                            <button class="bx-btn bx-btn-small" type="submit" name="modules-recompile-languages" value="Recompile language(s)"  >Recompile language(s)</button>
+                    </div>
+            <div class="clear_both"></div>
+</div>
+
+</form></div>
+	
+</div>
+<!-- Design Box [ End ] here  -->    <!-- Design Box [ Start ] here  -->
+<div class="disignBoxFirst bx-def-margin-top bx-def-border">
+	<div class="boxFirstHeader bx-def-bh-margin">
+        <div class="dbTitle">Not Installed Modules</div>
+        <div class="dbTopMenu">
+        	<table class="dbTmCntLine">
+        		<tr>
+		            
+				</tr>
+			</table>
+        </div>
+        <div class="clear_both"></div>
+	</div>
+	<div class="boxContent"><bx_if:include_js>
+	
+</bx_if:include_js>
+<form id="modules-not-installed-form" enctype="multipart/form-data" method="post" action="" class="form_advanced">
+    <div class="modules-items bx-def-bc-margin">
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-ads" name="pathes[]" value="boonex/ads/" bx_can_update="0" />
+                <label for="pathes-ads"><span class="modules-item-title">Ads</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-articles" name="pathes[]" value="boonex/articles/" bx_can_update="0" />
+                <label for="pathes-articles"><span class="modules-item-title">Articles</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-avatar" name="pathes[]" value="boonex/avatar/" bx_can_update="0" />
+                <label for="pathes-avatar"><span class="modules-item-title">Avatar</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-blogs" name="pathes[]" value="boonex/blogs/" bx_can_update="0" />
+                <label for="pathes-blogs"><span class="modules-item-title">Blog</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-chat" name="pathes[]" value="boonex/chat/" bx_can_update="0" />
+                <label for="pathes-chat"><span class="modules-item-title">Chat</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-custom_rss" name="pathes[]" value="boonex/custom_rss/" bx_can_update="0" />
+                <label for="pathes-custom_rss"><span class="modules-item-title">Custom RSS</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-desktop" name="pathes[]" value="boonex/desktop/" bx_can_update="0" />
+                <label for="pathes-desktop"><span class="modules-item-title">Desktop</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-events" name="pathes[]" value="boonex/events/" bx_can_update="0" />
+                <label for="pathes-events"><span class="modules-item-title">Events</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-facebook_connect" name="pathes[]" value="boonex/facebook_connect/" bx_can_update="0" />
+                <label for="pathes-facebook_connect"><span class="modules-item-title">Facebook connect</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-feedback" name="pathes[]" value="boonex/feedback/" bx_can_update="0" />
+                <label for="pathes-feedback"><span class="modules-item-title">Feedback</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-files" name="pathes[]" value="boonex/files/" bx_can_update="0" />
+                <label for="pathes-files"><span class="modules-item-title">Files</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-forum" name="pathes[]" value="boonex/forum/" bx_can_update="0" />
+                <label for="pathes-forum"><span class="modules-item-title">Forum</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-google_search" name="pathes[]" value="boonex/google_search/" bx_can_update="0" />
+                <label for="pathes-google_search"><span class="modules-item-title">Google Search</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-groups" name="pathes[]" value="boonex/groups/" bx_can_update="0" />
+                <label for="pathes-groups"><span class="modules-item-title">Groups</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-h5av" name="pathes[]" value="boonex/html5av/" bx_can_update="0" />
+                <label for="pathes-h5av"><span class="modules-item-title">HTML5 Audio/Video Player</span> version 1.1.4 by BoonEx</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-membership" name="pathes[]" value="boonex/membership/" bx_can_update="0" />
+                <label for="pathes-membership"><span class="modules-item-title">Membership</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-messenger" name="pathes[]" value="boonex/messenger/" bx_can_update="0" />
+                <label for="pathes-messenger"><span class="modules-item-title">Messenger</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-news" name="pathes[]" value="boonex/news/" bx_can_update="0" />
+                <label for="pathes-news"><span class="modules-item-title">News</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-pageac" name="pathes[]" value="boonex/pageac/" bx_can_update="0" />
+                <label for="pathes-pageac"><span class="modules-item-title">Page Access Control</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-payment" name="pathes[]" value="boonex/payment/" bx_can_update="0" />
+                <label for="pathes-payment"><span class="modules-item-title">Payment</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-photos" name="pathes[]" value="boonex/photos/" bx_can_update="0" />
+                <label for="pathes-photos"><span class="modules-item-title">Photos</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-poll" name="pathes[]" value="boonex/poll/" bx_can_update="0" />
+                <label for="pathes-poll"><span class="modules-item-title">Poll</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-profile_customize" name="pathes[]" value="boonex/profile_customize/" bx_can_update="0" />
+                <label for="pathes-profile_customize"><span class="modules-item-title">Profile Customizer</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-profiler" name="pathes[]" value="boonex/profiler/" bx_can_update="0" />
+                <label for="pathes-profiler"><span class="modules-item-title">Profiler</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-quotes" name="pathes[]" value="boonex/quotes/" bx_can_update="0" />
+                <label for="pathes-quotes"><span class="modules-item-title">Quotes</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-russian" name="pathes[]" value="boonex/russian/" bx_can_update="0" />
+                <label for="pathes-russian"><span class="modules-item-title">Russian Language</span> version 1.1.4 by BoonEx</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-smtpmailer" name="pathes[]" value="boonex/smtpmailer/" bx_can_update="0" />
+                <label for="pathes-smtpmailer"><span class="modules-item-title">SMTP Mailer</span> version 1.1.4 by BoonEx</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-shoutbox" name="pathes[]" value="boonex/shoutbox/" bx_can_update="0" />
+                <label for="pathes-shoutbox"><span class="modules-item-title">Shoutbox</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-simple_messenger" name="pathes[]" value="boonex/simple_messenger/" bx_can_update="0" />
+                <label for="pathes-simple_messenger"><span class="modules-item-title">Simple Messenger</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-sites" name="pathes[]" value="boonex/sites/" bx_can_update="0" />
+                <label for="pathes-sites"><span class="modules-item-title">Sites</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-sounds" name="pathes[]" value="boonex/sounds/" bx_can_update="0" />
+                <label for="pathes-sounds"><span class="modules-item-title">Sounds</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-spy" name="pathes[]" value="boonex/spy/" bx_can_update="0" />
+                <label for="pathes-spy"><span class="modules-item-title">Spy</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-store" name="pathes[]" value="boonex/store/" bx_can_update="0" />
+                <label for="pathes-store"><span class="modules-item-title">Store</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-wall" name="pathes[]" value="boonex/wall/" bx_can_update="0" />
+                <label for="pathes-wall"><span class="modules-item-title">Timeline</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-videos" name="pathes[]" value="boonex/videos/" bx_can_update="0" />
+                <label for="pathes-videos"><span class="modules-item-title">Videos</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-board" name="pathes[]" value="boonex/board/" bx_can_update="0" />
+                <label for="pathes-board"><span class="modules-item-title">Whiteboard</span> version 1.1.4 by Boonex</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-wmap" name="pathes[]" value="boonex/world_map/" bx_can_update="0" />
+                <label for="pathes-wmap"><span class="modules-item-title">World Map</span> version 1.1.4 by BoonEx</label>
+                            </div>
+                    <div class="modules-item">
+                <input type="checkbox" class="form_input_checkbox" id="pathes-zipcodesearch" name="pathes[]" value="boonex/zipcodesearch/" bx_can_update="0" />
+                <label for="pathes-zipcodesearch"><span class="modules-item-title">ZIP Code Search</span> version 1.1.4 by BoonEx</label>
+                            </div>
+            </div>
+    <div class="admin_actions_panel">
+            <div class="bx-def-padding-left">
+            <input id="admin-actions-select-all-modules-not-installed-form" class="admin-actions-select-all" type="checkbox" onclick="$('#modules-not-installed-form input[name=\'pathes[]\']:enabled').attr('checked', this.checked)"   />
+            <label for="admin-actions-select-all-modules-not-installed-form">Select all</label>
+        </div>
+                <div class="bx-def-padding-left">
+                            <button class="bx-btn bx-btn-small" type="submit" name="modules-install" value="Install"  >Install</button>
+                            <button class="bx-btn bx-btn-small" type="submit" name="modules-delete" value="Delete"  >Delete</button>
+                    </div>
+            <div class="clear_both"></div>
+</div>
+</form></div>
+	
+</div>
+<!-- Design Box [ End ] here  -->    <!-- Design Box [ Start ] here  -->
+<div class="disignBoxFirst bx-def-margin-top bx-def-border">
+	<div class="boxFirstHeader bx-def-bh-margin">
+        <div class="dbTitle">Available Updates</div>
+        <div class="dbTopMenu">
+        	<table class="dbTmCntLine">
+        		<tr>
+		            
+				</tr>
+			</table>
+        </div>
+        <div class="clear_both"></div>
+	</div>
+	<div class="boxContent"><bx_if:include_js>
+	
+</bx_if:include_js>
+<form id="modules-updates-form" enctype="multipart/form-data" method="post" action="" class="form_advanced">
+    <div class="modules-items bx-def-bc-margin">
+        <div class="MsgBox" id="1390612623807">
+    <table class="MsgBox bx-def-margin-top bx-def-margin-bottom"><tr><td>
+        <div class="msgbox_content bx-def-font-large bx-def-padding-sec">
+            Empty        </div>
+    </td></tr></table>
+	</div>
+    </div>
+    <div class="admin_actions_panel">
+            <div class="bx-def-padding-left">
+            <input id="admin-actions-select-all-modules-updates-form" class="admin-actions-select-all" type="checkbox" onclick="$('#modules-updates-form input[name=\'pathes[]\']:enabled').attr('checked', this.checked)"   />
+            <label for="admin-actions-select-all-modules-updates-form">Select all</label>
+        </div>
+                <div class="bx-def-padding-left">
+                            <button class="bx-btn bx-btn-small" type="submit" name="updates-install" value="Install"  >Install</button>
+                            <button class="bx-btn bx-btn-small" type="submit" name="updates-delete" value="Delete"  >Delete</button>
+                    </div>
+            <div class="clear_both"></div>
+</div>
+</form></div>
+	
+</div>
+<!-- Design Box [ End ] here  -->    <!-- Design Box [ Start ] here  -->
+<div class="disignBoxFirst bx-def-margin-top bx-def-border">
+    <div class="boxFirstHeader bx-def-bh-margin">
+        <div class="dbTitle">Upload</div>
+        <div class="dbTopMenu">
+        	<table class="dbTmCntLine">
+        		<tr>
+		            
+		                
+		                <td id="0-act" class="active" style="display:none">
+		                    
+		                    <span >Get new modules</span>
+		                </td>
+		                <td id="0-pas" class="notActive" >
+		                    
+		                    <a id="0"   href="http://www.boonex.com/market"  >Get new modules</a>
+		                </td>
+		            
+				</tr>
+			</table>
+        </div>
+        <div class="clear_both"></div>
+    </div>
+    <div class="boxContent bx-def-bc-margin"><div class="modules-uploader">
+                    <form  id="module_upload_form" action="/administration/modules.php" method="post" enctype="multipart/form-data" class="form_advanced">
+                                <input  class="form_input_hidden bx-def-font" type="hidden" name="csrf_token" value="FLC5X8AcuFC=!8HWuG3?" />
+                    <div class="form_advanced_wrapper module_upload_form_wrapper">
+                                    <table  class="form_advanced_table" cellpadding="0" cellspacing="0">
+                
+                                <thead class="">
+                <tr  class="headers">
+                    <th class="block_header bx-def-font-large" colspan="2">
+                        Package to upload
+                    </th>
+                </tr>
+            </thead>
+                <tbody >
+                <tr >
+                    <td class="caption">
+                        
+                        Module: 
+                    </td>
+
+                    <td class="value">
+                        <div class="clear_both"></div>
+                                                <div class="input_wrapper input_wrapper_file " >
+                                        <input  size="12" class="form_input_file bx-def-font" type="file" name="module" />
+                        </div>
+                        
+                        
+                        <i class="warn sys-icon exclamation-sign" float_info=" "></i>
+                        
+                        <div class="clear_both"></div>
+                        
+                    </td>
+                </tr>                <tr >
+                    <td class="caption">
+                        
+                        Check For Updates: 
+                    </td>
+
+                    <td class="value">
+                        <div class="clear_both"></div>
+                                                <div class="input_wrapper input_wrapper_file " >
+                                        <input  size="12" class="form_input_file bx-def-font" type="file" name="update" />
+                        </div>
+                        
+                        
+                        <i class="warn sys-icon exclamation-sign" float_info=" "></i>
+                        
+                        <div class="clear_both"></div>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            <thead class="">
+                <tr  class="headers">
+                    <th class="block_header bx-def-font-large" colspan="2">
+                        FTP access
+                    </th>
+                </tr>
+            </thead>
+                <tbody >
+                <tr >
+                    <td class="caption">
+                        
+                        Login: 
+                    </td>
+
+                    <td class="value">
+                        <div class="clear_both"></div>
+                                                <div class="input_wrapper input_wrapper_text bx-def-round-corners-with-border" >
+                                        <input  class="form_input_text bx-def-font" type="text" name="login" value="" />
+                        </div>
+                        
+                        
+                        <i class="warn sys-icon exclamation-sign" float_info=" "></i>
+                        
+                        <div class="clear_both"></div>
+                        
+                    </td>
+                </tr>                <tr >
+                    <td class="caption">
+                        
+                        Password: 
+                    </td>
+
+                    <td class="value">
+                        <div class="clear_both"></div>
+                                                <div class="input_wrapper input_wrapper_password bx-def-round-corners-with-border" >
+                                        <input  class="form_input_password bx-def-font" type="password" name="password" value="" />
+                        </div>
+                        
+                        
+                        <i class="warn sys-icon exclamation-sign" float_info=" "></i>
+                        
+                        <div class="clear_both"></div>
+                        
+                    </td>
+                </tr>                <tr >
+                    <td class="caption">
+                        
+                        Path to Dolphin's folder: 
+                    </td>
+
+                    <td class="value">
+                        <div class="clear_both"></div>
+                                                <div class="input_wrapper input_wrapper_text bx-def-round-corners-with-border" >
+                                        <input  class="form_input_text bx-def-font" type="text" name="path" value="public_html/" />
+                        </div>
+                        
+                        
+                        <i class="warn sys-icon exclamation-sign" float_info=" "></i>
+                        
+                        <div class="clear_both"></div>
+                        
+                    </td>
+                </tr>                <tr >
+                    <td class="caption">
+                        
+                        &nbsp;
+                    </td>
+
+                    <td class="value">
+                        <div class="clear_both"></div>
+                                                <div class="input_wrapper input_wrapper_submit " >
+                                        <div class="button_wrapper">
+                <input  class="form_input_submit bx-btn" type="submit" name="submit_upload" value="Upload" />
+            </div>
+                        </div>
+                        
+                        
+                        <i class="warn sys-icon exclamation-sign" float_info=" "></i>
+                        
+                        <div class="clear_both"></div>
+                        
+                    </td>
+                </tr>
+                
+                </tbody>
+
+            </table>
+                    </div>
+                </form></div></div>
+    
+</div>
+<!-- Design Box [ End ] here  -->	<!-- Design Box [ Start ] here  -->
+<div class="disignBoxFirst bx-def-margin-top bx-def-border">
+	<div class="boxFirstHeader bx-def-bh-margin">
+        <div class="dbTitle">Featured Modules</div>
+        <div class="dbTopMenu">
+        	<table class="dbTmCntLine">
+        		<tr>
+		            
+				</tr>
+			</table>
+        </div>
+        <div class="clear_both"></div>
+	</div>
+	<div class="boxContent">
+        <div class="RSSAggrCont" rssid="boonex_unity_market_featured" rssnum="5" member="0">
+            <div class="loading_rss">
+                <img src="/base/images/loading.gif" alt="loading ..." />
+            </div>
+         </div></div>
+	
+</div>
+<!-- Design Box [ End ] here  -->	<script type="text/javascript" language="javascript">
+    <!--
+        var oMM = new BxManageModules({
+            sActionUrl: 'http://localhost/administration/modules.php',
+            sObjName: 'oMM',
+        });
+    -->
+    </script>
+                                	                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+	       </body>
+</html>

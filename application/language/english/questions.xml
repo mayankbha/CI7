@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Cinyue</Author>
+  <LastAuthor>rommel capispisan</LastAuthor>
+  <TotalTime>0</TotalTime>
+  <Created>2014-02-19T05:08:54Z</Created>
+  <LastSaved>2014-02-28T11:56:56Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4068</WindowHeight>
+  <WindowWidth>10020</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#BCD6EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#BCD6EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s26">
+   <Interior ss:Color="#F8CBAC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#F8CBAC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="61" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="49.2" ss:DefaultRowHeight="14.4">
+   <Column ss:Width="615.6"/>
+   <Column ss:Index="4" ss:Width="809.40000000000009"/>
+   <Column ss:Width="68.399999999999991"/>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Reworded Question</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">IF YES</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">IF NO</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">German Translation</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">COLOR CODE </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">It is easy for you to make new acquaintances.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">E</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Es faellt mir leicht, neue Bekanntschaften zu schliessen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You care more about finding the best solution than about considering other people's feelings.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">Es ist mir wichtiger, die beste Loesung zu einem Problem zu finden, als es allen recht zu machen.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">NOT SURE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">You prefer to act when the time has come instead of planning ahead.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bevorzuge es, zu handeln wenn die Zeit gekommen ist, statt im Voraus zu planen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You need to spend time by yourself after socializing with people.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">I</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Ich brauche Zeit fuer mich allein, nachdem ich mit Leuten zusammen war. </Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">DUPLICATE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You like unplanned, challenging activities.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">Ich mag spontane, aufregende Aktivitaeten.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You feel worn out after attending parties and big social events.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">I</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Ich fuehle mich oft erschoepft nach Parties und grossen Veranstaltungen.</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You do not mind waiting. </Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bin geduldig.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are often called stubborn.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">S</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Ich werde oft als stur bezeichnet.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are often moved by sad movies.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">F</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">T</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bin sehr oft von traurigen Filmen geruehrt.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You like to keep your space tidy. </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">J</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">Ich halte meine Umgebung gern ordentlich und sauber.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You like to help others, even when you are not gaining anything from it.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">F</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">T</Data></Cell>
+    <Cell><Data ss:Type="String">Ich helfe oft anderen, obwohl ich selbst nichts davon habe.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You find it difficult to make decisions.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">Es faellt mir schwer, Entscheidungen zu treffen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You love attention.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">E</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Ich sehne mich nach Aufmerksamkeit.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are more likely to be thinking of a new plan than to be carrying it out.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bin eher der Typ, der sich einen neuen Plan ausdenkt, als der, der den Plan dann ausfuehrt.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">You prefer to try a new approach to a problem than use an old approach that has been working.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Ich wuerde lieber zu einem Problem lieber eine neue Loesung ausprobieren, als die traditionelle Loesung zu benutzen, die bisher funktioniert hat. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You like to be in control of your surroundings.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">J</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">Ich habe gerne Kontrolle ueber meine Umgebung.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You do not share your thoughts until you have an exact idea what you are going to say.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">J</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">Ich fange selten an zu reden, bevor ich genau weiss, was ich sagen werde.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You often understand what has been left unsaid in a conversation and it is easy for you to pick up figurative language.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Es faellt mir leicht, Ungesagtes in einem Gespraech zu verstehen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are often improvising or in a hurry.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bin oft spontan oder in Eile.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You would rather express yourself in your work than have it abide to other people's standards.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Mir ist es wichtiger, dass meine Kreationen meine Gefuehle und Gedanken wiederspiegelt, als dass sie die Erwartungen und Standards anderer Leute erfuellen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Your work ethic switches between high and low, rather than staying medium, but consistant.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">Meine Motivation schwingt von &quot;hoch&quot; zu &quot;niedrig&quot;, anstatt mittel, aber konstant zu bleiben.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are more of a &quot;What is&quot; than a &quot;What if&quot; person.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">S</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Ich konzentriere mich mehr auf was ist, statt was sein koennte.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You would rather read a book or play a video game than attend a party.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">I</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Ich wuerde lieber ein gutes Buch lesen oder ein Computerspiel spielen, als auf eine Party zu gehen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You find it important to finish what you started.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">J</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">Es ist mir wichtig, zu Ende zu bringen, was ich angefangen habe.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You find imagination more important than reality.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Ich finde eine gesunde Vorstellungskraft wichtiger als die Realitaet.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">It is easy for you to console your friends and share their worries.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">F</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">T</Data></Cell>
+    <Cell><Data ss:Type="String">Es faellt mir leicht, die Sorgen meiner Freunde zu teilen und sie zu troesten.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You enjoy solitude.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">I</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Ich geniesse Einsamkeit. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You have difficulties expressing your feelings, even around people you are close to.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">Ich habe oft Schwierigkeiten, meine Gefuehle auszudruecken.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You often act impulsively in difficult situations.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">F</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">T</Data></Cell>
+    <Cell><Data ss:Type="String">Ich handle oft unbedacht und impulsiv in Konfliktsituationen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You often think about the consequences of a current event or action.</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">J/S</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">P/N</Data></Cell>
+    <Cell><Data ss:Type="String">Ich denke oft ueber die Folgen einer Handlung nach, bevor oder waehrend sie ausgefuehrt wird.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are able to become part of the social environment of your workplace very quickly.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">E</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Mir faellt es leicht, mich in das soziale Umfeld einer neuen Arbeitsstelle integrieren.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You prefer to do things in your own fashion than to use another person's approach, even if his/her approach works.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Ich tue Dinge gern auf meine Weise, anstatt es einer anderen Person nachzumachen, obwohl ihre Weise funktioniert. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You prefer crowds over solitude.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">E</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bevorzuge Menschenmassen statt Einsamkeit.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You like to control everything to the smallest detail.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">J</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">Ich habe gerne Kontrolle bis ins kleinste Detail.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are often called realistic.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">S</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Ich werde oft als realistisch bezeichnet.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are more likely to remember the overall meaning of an event than the details about it. </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Es ist wahrscheinlicher, dass ich mich mehr an die Bedeutung eines Ereignisses erinnere als an einzelne Details des Ereignisses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You pay more attention to details than the general pattern.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">S</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Ich konzentriere mich eher auf Details als auf das gesamte Muster.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">You prefer being spontaneous over planning something.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bin lieber spontan, als etwas zu planen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">It is easy for you to remember birthdays and specific dates and events.</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">J/S</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">P/N</Data></Cell>
+    <Cell><Data ss:Type="String">Es faellt mir leicht, mich an Daten und Fakten, wie beispielsweise Geburtstagen, zu erinnern.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are inclined to follow your personal ideals, even when logic is indicating another way to be right.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">S</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Ich neige dazu, meinen eigenen Werten zu folgen, selbst, wenn eine andere Entscheidung vielleicht profitabler waere.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">You like to have open time slots to fit in spontaneous activities instead of having a set list of things to do.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bevorzuge es, meine Zeit fuer spontane Aktivitaeten frei zu halten, anstatt einen festgelegten Zeitplan zu haben.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You prefer working with people over working by yourself.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">E</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Ich arbeite lieber mit Leuten als allein.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You make unbiased decisions, even though you know you may be harming your relationship with a friend.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">Ich habe keine Schwierigkeiten, in einem Konflikt voellig objektiv zu bleiben, selbst, wenn es meiner Beziehung mit einem Freund schaden koennte.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You like to establish your own deadlines and keep them well.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">J</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">Ich setze mir gern selbst zeitliche Ziele fuer meine Projekte und halte diese dann auch ein.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You prefer justice over mercy.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">Gerechtigkeit ist mir wichter als Vergebung.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You focus more on the big picture than the details.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Ich konzentriere mich eher auf das Gesamtbild statt auf die Details.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You feel energized after socializing with people.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">E</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Ich fuehle mich oft besser, nachdem ich mit anderen Leuten Zeit verbracht habe.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Many of your decisions are influenced by your feelings.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">F</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">T</Data></Cell>
+    <Cell><Data ss:Type="String">Viele meiner Entscheidungen werden von meinen Gefuehlen beeinflusst.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You will accept criticism if it is logical.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">Ich habe kein Problem mit Kritik an mir, solange sie Sinn macht.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You hate messiness. </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">J</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">Ich kann Unordnung nicht ausstehen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">People compliment you on your style.</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">N/P</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S/J</Data></Cell>
+    <Cell><Data ss:Type="String">Leute loben oft meinen Kleidungsstil.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You like to close yourself off from your environment sometimes.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">I</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Ich mag es manchmal, mich fuer eine Zeit von der Welt abzugrenzen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are very open about your feelings.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">F</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">T</Data></Cell>
+    <Cell><Data ss:Type="String">Ich rede offen ueber meine Gefuehle.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You do not talk much; you keep to yourself.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">I</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Ich bin nicht sehr aufgeschlossen und rede nicht sehr viel.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You prefer to stay near the walls of the room, when it is full.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">I</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Wenn ein Raum mit Menschen gefuellt ist, bleibe ich oft in der Naehe der Waende, statt mich in die Mitte zu draengen.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You prefer the traditional stable approach over a new approach that might or might not work better.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">S</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Ich wuerde lieber den traditionellen Weg nehmen, der ueber Jahre funktioniert hat, als einen neuen auszuprobieren, der entweder besser oder gar nicht funktionieren koennte.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You think that the most logical decision is always the best.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">Ich denke, dass die logischste Entscheidung immer die beste ist.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are willing to break the rules if necessary.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">N</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">Ich habe keine Schwierigkeiten, die Regeln ein wenig zu biegen oder gar zu brechen, wenn ich muss. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You keep your personal and your professional life strictly separated.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">Mir faellt es leicht, mein Privatleben und mein Arbeitsleben auseinander zu halten.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">You are often the one who takes the first step in getting to know people.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">E</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Ich mache oft den ersten Schritt, um jemanden kennen zu lernen.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>81</Zoom>
+   <Selected/>
+   <TopRowVisible>33</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

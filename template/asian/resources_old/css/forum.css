@@ -1,0 +1,106 @@
+.forum-wrap .content-box-border .page-title {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.forum-tbl {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.mod-top-user {}
+.mod-top-user .box-ct {
+  margin-bottom: 0;
+}
+
+.mod-top-user .media {
+  border-bottom: 1px solid #ddd;
+}
+.mod-top-user .media:last-child {
+  border-bottom: 0;
+}
+
+.mod-top-user .media p > span {
+  margin-right: 10px;
+  font-size: 13px; 
+  color: #777;
+}
+
+.forum-post {
+
+}
+
+.post-time {}
+.post-no {
+  background: none repeat scroll 0 0 #5CB85C;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.post-meta {
+ border-bottom: 1px dotted #DDDDDD;
+  border-top: 1px dotted #DDDDDD;
+  color: #888888;
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.post-header {
+  margin-bottom: 20px;
+}
+.post-author{
+  min-width: 200px;
+  font-size: 13px;
+}
+.post-header p{ 
+  margin-bottom: 0;
+}
+
+.post-ct {
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px dotted #ddd;
+}
+
+.post-author-meta {}
+.post-footer {
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+.post-footer a {
+  font-size: 12px;
+  margin-right: 10px;
+  color: #FF8203;
+}
+
+.post-footer a:hover {
+color: #444;}
+
+
+/* Specific Forum Style */
+.forum-wrap {}
+
+.forum-wrap table td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.forum-wrap .navigation ul li a:hover, 
+.forum-wrap .navigation ul li a.active {
+  background:  #ff8203;
+  border-color:  #ff8203;
+}
+.forum-wrap .box-ct a,
+.forum-wrap table a  {
+  
+  color: #ff8203;
+}
+
+.forum-wrap .box-ct a:hover,
+.forum-wrap table a:hover{
+}

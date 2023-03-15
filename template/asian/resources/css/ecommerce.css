@@ -1,0 +1,138 @@
+.ecommerce {}
+.ecommerce .prod {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+.ecommerce .prod:first-child {}
+.ecommerce .prod:last-child {
+  border-bottom: 0;
+}
+
+.cat-sidebar {
+
+}
+
+.cat-sidebar a {
+  display: block;
+  border-bottom: 1px solid #eee;
+  line-height: 34px;
+  font-weight: 400;
+  color: #444;
+}
+
+.cat-sidebar a:hover{
+  color: #dc1f2a;
+}
+
+.cat-sidebar a:last-child {
+  border-bottom: 0;
+}
+
+.cat-sidebar a > i {
+  width: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 5px;
+  color: #aaa;
+}
+
+.cat-sidebar a:hover {
+
+}
+
+.cart-btn {
+  position: fixed;
+  top: 15%;
+  right: 0;
+  z-index: 100;
+}
+.cart-btn .btn {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+.cart-btn .btn .badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.cart-btn .dropdown-menu {
+  width: 240px
+}
+
+.cart-item-ct {}
+.cart-item-ct table {}
+.cart-item-ct tr:first-child td {
+  border: 0;
+}
+.cart-item-ct tr:last-child td {
+  border-bottom: 1px solid #ddd;
+}
+.cart-item-ct tr td > a {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+
+/* Image slider*/
+
+.prod-img-slider {}
+
+.prod-img-slider .owl-prev,
+.prod-img-slider .owl-next {
+  background: url(../img/prev-xs.png) no-repeat left center;
+  left: -25px;
+  top: 39%;
+  width: 20px;
+  height: 20px;
+}
+.prod-img-slider .owl-next {
+  background: url(../img/next-xs.png) no-repeat left center;
+  left: auto;
+  right: -25px;
+}
+
+.feature-product h5 {
+  text-align: center;
+}
+
+.feature-product h5 > a {
+  color: #444;
+}
+
+.viewcart-option {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.viewcart-coupon {
+  margin-top: 20px;
+}
+.reg-step {
+  margin-bottom: 40px;
+}
+
+.reg-step:last-child {
+  margin-bottom: 0;
+}
+
+.reg-step .gray-bg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.reg-step .gray-bg .form-group {
+  margin-bottom: 0;
+}
+
+.form-control.cart-qty-input {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.qty-action {
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+.popupbody {
+	height: 230px;
+	overflow: auto;
+}
+.fav {
+	background: #33CC00 !important;
+}

@@ -1,0 +1,2 @@
+    <div class="content-box">        <section class="container">		<br><br><br><br>		<center><?php echo $message; ?><center>		<br>		<?php 		if(isset($link)){		?>		<a href="/profile"><?php if(isset($link)){echo $link;} 		?>		</a>		<?php			echo $link;		} 		?>		<br><br><br>		<br><br><br><br>		<br><br>        </section><!-- End .container -->    </div><!-- End #content -->
+    
